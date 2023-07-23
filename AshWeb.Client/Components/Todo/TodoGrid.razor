@@ -1,0 +1,46 @@
+<MudSimpleTable Hover="true" Dense="true" FixedHeader="@true" Style="height:300px;">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td>
+                <MudTextField @bind-Value="Name">
+                </MudTextField>
+            </td>
+            <td>
+                <MudTextField @bind-Value="Description" >
+                </MudTextField>
+            </td>
+            <td>
+            <MudButton 
+                Variant="Variant.Filled"
+                EndIcon="@Icons.Material.Filled.Send" 
+                Color="Color.Default"
+                OnClick="@CreateNewTodo"
+                >Add</MudButton>
+            </td>
+        </tr>
+
+        @foreach (var todo in TodoList!)
+        {
+            <tr>
+                <td>@todo.Name</td>
+                <td>@todo.Description</td>
+                <td>
+                    <MudButton 
+                        Variant="Variant.Filled"
+                        EndIcon="@Icons.Material.Filled.Delete" 
+                        Color="Color.Error"
+                        OnClick="() => DeleteTodo(todo)"
+                        >Delete</MudButton>
+                </td>
+            </tr>
+        }
+    </tbody>
+</MudSimpleTable>

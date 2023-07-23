@@ -1,0 +1,1 @@
+public record struct R_Todo (Guid Id, string Name, string Description);

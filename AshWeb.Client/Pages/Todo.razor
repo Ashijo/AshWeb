@@ -1,0 +1,11 @@
+@page "/Todo"
+
+@using AshWeb.Client.Components.Todo;
+
+<MudText Typo="Typo.h2">Todo List :</MudText>
+
+<TodoGrid 
+    TodoList=@TodoList 
+    CreateNewTodoEvent=@CreateNewTodo 
+    DeleteTodoEvent=@DeleteTodo
+    />
