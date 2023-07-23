@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31717.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AshWeb.Client", "AshWeb.Client.csproj", "{AA4F1D84-7B67-4E25-BC47-9DC50B5AE428}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA4F1D84-7B67-4E25-BC47-9DC50B5AE428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4F1D84-7B67-4E25-BC47-9DC50B5AE428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4F1D84-7B67-4E25-BC47-9DC50B5AE428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4F1D84-7B67-4E25-BC47-9DC50B5AE428}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54532037-E7DC-424F-B8CA-941563BB012F}
+	EndGlobalSection
+EndGlobal
